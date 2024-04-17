@@ -8,13 +8,10 @@
     "dev:bundler": "webpack -w --mode=development"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rajkumar Karnakar",
   "license": "ISC",
   "dependencies": {
-    "@typescript-eslint/parser": "^7.7.0",
     "ejs": "^3.1.10",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
     "express": "^4.19.2",
     "mongodb": "^6.5.0",
     "react": "^18.2.0",

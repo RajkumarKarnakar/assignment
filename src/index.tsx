@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "../src/components/App"
 
-const App = () => {
-  return <div>Hello React</div>;
-};
+
 
 let element = document.getElementById("app");
 

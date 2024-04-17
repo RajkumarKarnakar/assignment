@@ -1,5 +1,4 @@
 import express from "express";
-import os from "os";
 
 
 const server = express();
@@ -17,5 +16,4 @@ server.use("/", (req, res) => {
 server.listen(8080, () =>
     console.info(
         "Express server is listening to http://localhost:8080/",
-        `free memory is ${os.freemem()/1024/1024/1024}`
 ));
