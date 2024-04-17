@@ -1,0 +1,32 @@
+{
+  "name": "machinewise-assignment",
+  "version": "1.0.0",
+  "description": "this is the assignment repository",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "tsnd ./src/server/server.ts",
+    "dev:bundler": "webpack -w --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/parser": "^7.7.0",
+    "ejs": "^3.1.10",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/react-dom": "^18.2.25",
+    "ts-node-dev": "^2.0.0"
+  }
+}
